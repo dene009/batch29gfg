@@ -1,0 +1,32 @@
+10.0.0.0/16
+
+10.0.0.0 - 10.0.255.255 = 256*256 total ip addresses
+
+subnet
+
+10.0.1.0/24: subnet1
+10.0.1.0 - 10.0.1.255 = 256 ip addresses 
+10.0.1.153
+
+10.0.2.0/24: subnet2
+10.0.2.0 - 10.0.2.255 = 256 ip addresses
+10.0.2.21
+
+
+A VPC (Virtual Private Cloud) in AWS is essentially like a gated community in the real world, where you have your own private space within a larger city (AWS cloud) with controlled access to the outside world, allowing you to manage your network infrastructure, like servers and databases, with complete isolation and security, similar to how a gated community protects its residents from the general public while still allowing them to access necessary services outside the community boundaries. 
+Key points of the analogy:
+Gated Community:
+The VPC acts as the "fence" around your virtual network, keeping your resources separate from other users' data in the AWS cloud. 
+Subnets (Neighborhoods):
+Within the VPC, you can create different subnets, which are like different neighborhoods within the gated community, each with its own set of access rules and IP address ranges. 
+Internet Gateway (Main Gate):
+To access the internet from your VPC, you need an "internet gateway," which is like the main gate of the community that allows controlled access to the outside world. 
+Security Groups (House Rules):
+Security groups act as individual house rules within each subnet, determining which traffic is allowed in and out of specific resources. 
+Real-world scenarios where a VPC is useful:
+Separating sensitive data:
+Like having a separate, secure building within your gated community to store highly confidential information. 
+Managing different applications:
+Dividing your VPC into subnets for different applications, similar to having different zones within the community for different types of businesses. 
+Controlling external access:
+Setting up rules to allow only specific traffic to reach your servers, like having a guard at the community gate checking who is allowed to enter
