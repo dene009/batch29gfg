@@ -1,0 +1,59 @@
+How we can interact with AWS services? (mediums)
+
+AWS Management Console
+CLI
+SDK
+
+
+who can access AWS services: Authentication
+what they can access: Authorization
+
+Auth: 
+Authentication
+Authorization
+
+email address: root account (admin power)
+
+
+create a users
+add permission to the user on the basis of req
+
+
+
+IAM (Identity and Access Management) 
+Identity: Authentication
+Access: Authorization
+
+
+Identity: 
+User
+Group
+Roles
+
+
+Access:
+Policies/Permissions (ex: only access to ec2)
+AWS managed
+Customer managed
+
+Best Practices:
+LPP (Least priviledge permission)
+
+https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started-reduce-permissions.html
+
+Teams in any org:
+Dev
+Test
+Prod
+Release
+
+create groups and assign the permission based on role/responsibility
+
+
+ec2: app would be deployed, will try to upload files to s3
+roles: ec2 get access to s3
+
+Note: Every api calls you make it in aws should be authenticated
+
+
+
