@@ -9,5 +9,5 @@ spec:
   - name: busybox-rpof
     image: busybox
     imagePullPolicy: IfNotPresent
-    command: ['sh', '-c', 'exit 15']
+    command: [ 'sh', '-c', 'exit 0' ]
   restartPolicy: OnFailure

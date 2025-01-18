@@ -9,5 +9,5 @@ spec:
   - name: busybox-rpa
     image: busybox
     imagePullPolicy: IfNotPresent
-    command: ['sh', '-c', 'exit 0']
+    command: [ 'sh', '-c', 'exit 0' ]
   restartPolicy: Always

@@ -4,6 +4,7 @@ metadata:
   name: myfirstpod
   labels:
     name: frontend
+  namespace: batch29
 spec:
   containers:
   - name: myfirstpodcontainer
