@@ -1,0 +1,12 @@
+data.aws_ami.ubuntu
+aws_instance.myec2instance
+module.batch23mod.aws_instance.myinstance
+module.batch23mod.aws_internet_gateway.myigw
+module.batch23mod.aws_route_table.myrt
+module.batch23mod.aws_route_table_association.myrta
+module.batch23mod.aws_security_group.mysg
+module.batch23mod.aws_subnet.mysubnet
+module.batch23mod.aws_vpc.myvpc
+module.batch23mod.aws_vpc_security_group_egress_rule.allow_all_traffic_ipv4
+module.batch23mod.aws_vpc_security_group_ingress_rule.http
+module.batch23mod.aws_vpc_security_group_ingress_rule.ssh

@@ -1,0 +1,3 @@
+.terraform/
+batch23mod/
+.terraform.lock.hcl
